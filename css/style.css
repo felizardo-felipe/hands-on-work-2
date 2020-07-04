@@ -1,0 +1,106 @@
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  z-index: 12;
+  position: relative;
+  background: #000000;
+  top: 0;
+}
+
+.main-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  margin-left: 60px;
+  float: right;
+  margin: 2px 0 0 0;
+}
+
+.main-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  margin: 0;
+  padding: 0 10px;
+  list-style: none;
+  display: inline;
+  font-size: 16px;
+}
+
+.main-nav li a {
+  font-weight: 400;
+  padding: 10px 0;
+  color: #a4abb6;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.main-nav li a:hover {
+  color: #8791a0;
+}
+
+.main-nav li.active a {
+  color: #ffffff;
+}
+
+.main-nav li.active a:hover {
+  color: #ffffff;
+}
+
+.logo {
+  float: left;
+  color: #ffffff;
+  padding-left: 0px;
+  font-size: 20px;
+  display: block;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-family: "Abel", sans-serif;
+  letter-spacing: .1em;
+}
+
+.section {
+  padding: 4em 0;
+  position: relative;
+  z-index: 2;
+}
+
+.img-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.img-bg .photo-details {
+  text-align: left;
+  bottom: 20px;
+  left: 20px;
+  position: absolute;
+}
+
+.img-bg .photo-details h2, .img-bg .photo-details p {
+  color: #ffffff;
+  position: relative;
+}
+
+.img-bg .photo-details h2 {
+  margin: 0;
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.img-bg .photo-details p {
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.5);
+  -webkit-transition: .3s all ease;
+  transition: .3s all ease;
+}
